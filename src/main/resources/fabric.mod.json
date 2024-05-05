@@ -21,17 +21,12 @@
     "reinfcoreclient": ["atonkish.reinfchest.ReinforcedChestsClientMod"],
     "modmenu": ["atonkish.reinfcore.integration.modmenu.ModMenu"]
   },
-  "mixins": [
-    {
-      "config": "reinfchest.client.mixins.json",
-      "environment": "client"
-    }
-  ],
+  "mixins": [],
 
   "depends": {
     "fabricloader": ">=0.15.10",
-    "minecraft": "~1.20.3",
-    "java": ">=17",
+    "minecraft": ">=1.20.5",
+    "java": ">=21",
     "fabric-api": "*"
   },
   "suggests": {
