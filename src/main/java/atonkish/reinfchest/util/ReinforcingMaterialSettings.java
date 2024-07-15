@@ -42,13 +42,13 @@ public enum ReinforcingMaterialSettings {
                     .strength(2.5F, 6.0F)
                     .sounds(BlockSoundGroup.METAL),
             new Item.Settings()),
-    NETHERITE(ReinforcedCoreRegistry.registerReinforcingMaterial("netherite", 108, Items.NETHERITE_INGOT),
+    NETHERITE(ReinforcedCoreRegistry.registerReinforcingMaterial("netherite", 126, Items.NETHERITE_INGOT),
             AbstractBlock.Settings
                     .create()
                     .mapColor(MapColor.BLACK)
-                    .strength(2.5F, 1200.0F)
+                    .strength(2.5F, 6.0F)
                     .sounds(BlockSoundGroup.NETHERITE),
-            new Item.Settings().fireproof());
+            new Item.Settings());
 
     private final ReinforcingMaterial material;
     private final Block.Settings blockSettings;
